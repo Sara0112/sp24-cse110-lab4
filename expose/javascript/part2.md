@@ -24,13 +24,13 @@ E. The output is `4` since `true` map to `1` and `1+3=4`.
 F. The output is `0` since both `false` and `null` map to `0` and `0+0=0`.  
 G. The output is `3undefined` since `undefined` map to string `'undefined'` and and `+` concatenate `'3'` with string `'undefined'`.    
 H. The output is `NaN` since `undefined` map to `NaN` and one of terms of the subtraction is `NaN`, the result is `NaN`.  
-1.   
+14.   
 A. The output is `true` since the `'2'` map to `2` and `2>1`.  
 B. The output is `false` since both are string, compare character by character and `'2'` is larger than `'1'`.  
 C. The output is `true` since the `'2'` map to `2` and `2=2`  
 D. The output is `false` since `===` is used to check data type for both side and `2` is number `'2'` is string.   
 E. The output is `false` since the `true` map to `1` and `1!=2`.  
 F. The output is `ture` since `===` is used to check data type for both side and both sides are string.  
-1.  `==` is used to comparing both side after converting data type. `===` is used to check data type of both side.  
-2.  The output is `[2,4,6]` since `doSomething` is passed to `callback` function. In `modifyArray`, `doSomething` make each element of `[1,2,3]` multiply by `2`.
-3.  The output is `1 4 2 3` because lines 3 and 4 include delays, so `1` and `4` are printed first, followed by `2` and `3` after a second.
+15.  `==` is used to comparing both side after converting data type. `===` is used to check data type of both side.  
+17.  The output is `[2,4,6]` since `doSomething` is passed to `callback` function. In `modifyArray`, `doSomething` make each element of `[1,2,3]` multiply by `2`.
+19.  The output is `1 4 2 3` because lines 3 and 4 include delays, so `1` and `4` are printed first, followed by `2` and `3` after a second.
