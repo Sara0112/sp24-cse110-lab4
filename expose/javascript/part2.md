@@ -32,5 +32,5 @@ D. The output is `false` since `===` is used to check data type for both side an
 E. The output is `false` since the `true` map to `1` and `1!=2`.  
 F. The output is `ture` since `===` is used to check data type for both side and both sides are string.  
 15.  `==` is used to comparing both side after converting data type. `===` is used to check data type of both side.  
-17.  The output is `[2,4,6]` since `doSomething` is passed to `callback` function. In `modifyArray`, `doSomething` make each element of `[1,2,3]` multiply by `2`.
+17.  The output is `[2,4,6]` since `doSomething` is passed to `callback` function. In `modifyArray`, `doSomething` make each element of `[1,2,3]` multiply by `2`.  
 19.  The output is `1 4 2 3` because lines 3 and 4 include delays, so `1` and `4` are printed first, followed by `2` and `3` after a second.
