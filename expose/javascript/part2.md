@@ -24,7 +24,7 @@ E. The output is `4` since `true` map to `1` and `1+3=4`.
 F. The output is `0` since both `false` and `null` map to `0` and `0+0=0`.  
 G. The output is `3undefined` since `undefined` map to string `'undefined'` and and `+` concatenate `'3'` with string `'undefined'`.    
 H. The output is `NaN` since `undefined` map to `NaN` and one of terms of the subtraction is `NaN`, the result is `NaN`.  
-14.   
+14. 
 A. The output is `true` since the `'2'` map to `2` and `2>1`.  
 B. The output is `false` since both are string, compare character by character and `'2'` is larger than `'1'`.  
 C. The output is `true` since the `'2'` map to `2` and `2=2`  
